@@ -245,10 +245,10 @@ header .header-actions .header-user {
 .products .products-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .products .product {
-  flex: 0 1 calc(100 / 4 * 1% - 57px);
-  margin-right: 57px;
+  flex: 0 1 22%;
   margin-bottom: 56px;
   display: flex;
   flex-direction: column;
