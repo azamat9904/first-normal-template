@@ -35,9 +35,13 @@ body {
 
 .rating {
     margin-bottom: 10px;
+    display: flex;
 
     span {
         background: url(../images/products/star.png) left center no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-right: 4px;
     }
 
     span.active {
@@ -409,6 +413,132 @@ header {
         font-size: 25.3018px;
         line-height: 30px;
         color: #FFFFFF;
-        padding:11px 23px;
+        padding: 11px 23px;
+    }
+    
+    margin-bottom: 61px;
+}
+
+.footer {
+    background: #00AC4E;
+    padding: 34px 0;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 11px;
+    }
+
+    .footer-info {
+        flex: 0 1 393px;
+
+        .footer-phones {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-phones-title {
+            font-size: 12px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin: 0;
+        }
+
+        .footer-phones-number{
+            display: inline-block;
+            font-weight: 500;
+            font-size: 18.511px;
+            line-height: 39px;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+
+        .footer-support-schedule {
+            font-size: 15.4259px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        .footer-support-email a{
+            font-size: 18.511px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+    }
+
+    .footer-socials {
+        flex: 0 1 187px;
+
+        a {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 32px;
+            letter-spacing: 3px;
+            font-variant: small-caps;
+            color: #FFFFFF;
+            margin-bottom: 26px;
+            display: inline-block;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .footer-auth {
+        flex: 0 1 182px;
+        display: flex;
+        cursor: pointer;
+        
+        .footer-auth-img {
+            width: 25px;
+            height: 25px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 15.4259px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-left: 7px;
+        }
+    }
+
+    .footer-conditions {
+        
+        &-title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+
+        span {
+            margin-right: 30px;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+            
+            a {
+                font-family: TT Hoves;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12.3407px;
+                line-height: 32px;
+                color: #FFFFFF;
+                display: inline-block;
+            }
+        }
     }
 }

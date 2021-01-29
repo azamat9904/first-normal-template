@@ -16,7 +16,7 @@ const categoriesSwiper = new Swiper('.categories-container', {
 })
 
 $('#play-video').on('click', function(){
-    $('.video-content .embed-responsive-item').attr('src', 'https://www.youtube.com/embed/zpOULjyy-n8?rel=0').attr('allow', 'autoplay');
+    $('.video-content .embed-responsive-item').attr('src', 'https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay=1').attr('allow', 'autoplay');
     $('.video-content').removeClass('video-content-bg');
     $('.video-content button').hide();
 });
